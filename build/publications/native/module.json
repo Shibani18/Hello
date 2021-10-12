@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../KotlinMultiPlatformLibrary/1.0.0/KotlinMultiPlatformLibrary-1.0.0.module",
+    "group": "org.operation.group",
+    "module": "KotlinMultiPlatformLibrary",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "KotlinMultiPlatformLibrary.klib",
+          "url": "KotlinMultiPlatformLibrary-native-1.0.0.klib",
+          "size": 6972,
+          "sha512": "b1990eb846ee9741b71e82499cdda4a078963efaa76e4663e7eb2b4f4ede44ffc92c852bc80b2736b7f7e6abbaba2d823f85bc4f7541ab981cd4660a337aa73b",
+          "sha256": "7da4d3cd8ea2b8256a26c0b9fe47cf6a4b644f04bb6ce9add57284740a00f6a5",
+          "sha1": "73d8ad9ee1f68183edc97f4a04b34b757e561250",
+          "md5": "21b6176fc87d318b059528e9c48b1336"
+        }
+      ]
+    },
+    {
+      "name": "nativeMetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "KotlinMultiPlatformLibrary-native-1.0.0-metadata.jar",
+          "url": "KotlinMultiPlatformLibrary-native-1.0.0-metadata.jar",
+          "size": 261,
+          "sha512": "9c447d8a4314576f02a46f3119d018b1335b063dcc38ddee45b518a8577403d268b62b3b1f9b590d93655986550b6b8ff4b3b4e689a3d56be3876f4adb052e5a",
+          "sha256": "a2c711860ca39d5246291b49383a79001f621f2251e0e9092574e3141b386fd1",
+          "sha1": "c624a2847ccd632f6418650219be8b37aafdb86e",
+          "md5": "de639cb521ed8c1fc1e2a6ad255bdab7"
+        }
+      ]
+    }
+  ]
+}

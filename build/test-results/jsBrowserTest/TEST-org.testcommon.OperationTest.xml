@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.testcommon.OperationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-12T10:59:55" hostname="MEHTASPF2MXTLE" time="0.0">
+  <properties/>
+  <testcase name="testToOperate[js, browser, ChromeHeadless94.0.4606.71, Windows10]" classname="org.testcommon.OperationTest" time="0.0"/>
+  <system-out><![CDATA[[log] Hello I am JS
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

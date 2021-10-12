@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.testcommon.OperationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-08T12:44:10" hostname="MEHTASPF2MXTLE" time="0.008">
+  <properties/>
+  <testcase name="testToOperate[native]" classname="org.testcommon.OperationTest" time="0.008"/>
+  <system-out><![CDATA[Hello I am native
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

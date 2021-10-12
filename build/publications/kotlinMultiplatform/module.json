@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.operation.group",
+    "module": "KotlinMultiPlatformLibrary",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "KotlinMultiPlatformLibrary-metadata-1.0.0-all.jar",
+          "url": "KotlinMultiPlatformLibrary-1.0.0-all.jar",
+          "size": 3215,
+          "sha512": "f1612f4b8d625810ce58b08d0b3674459020aa82ecdf286b7f1395c487bbd240c7e455410bb35893defa192342073cec9cf22b44895e29041faecbc8160f2d5d",
+          "sha256": "fed859a7994cbb566f5432dad86fe036ee96191d31e80819921d3897ee6145ee",
+          "sha1": "2b7c2717f6c49db774dd999a7612a7d053f12221",
+          "md5": "209d475af8eecbc4c67e6f326de1d871"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "KotlinMultiPlatformLibrary-1.0.0.jar",
+          "url": "KotlinMultiPlatformLibrary-1.0.0.jar",
+          "size": 1546,
+          "sha512": "900eddbc65bb688ed15081f27ee50bc672bcdbb4dff5f514bf6d079afffb0e64a401c6b81098c308a0def5a9879f0b7d8313976a980678efbd33b99d48865217",
+          "sha256": "c674e00bd1594192fb9cf16eff2292f31a43551b14a900bf02986a41d0bce03e",
+          "sha1": "62d1ff4579e7f3f5684ab1ece57fcab1105d5943",
+          "md5": "c984b0d4efb06973697c374633bfacc8"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../KotlinMultiPlatformLibrary-js/1.0.0/KotlinMultiPlatformLibrary-js-1.0.0.module",
+        "group": "org.operation.group",
+        "module": "KotlinMultiPlatformLibrary-js",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../KotlinMultiPlatformLibrary-js/1.0.0/KotlinMultiPlatformLibrary-js-1.0.0.module",
+        "group": "org.operation.group",
+        "module": "KotlinMultiPlatformLibrary-js",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../KotlinMultiPlatformLibrary-jvm/1.0.0/KotlinMultiPlatformLibrary-jvm-1.0.0.module",
+        "group": "org.operation.group",
+        "module": "KotlinMultiPlatformLibrary-jvm",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../KotlinMultiPlatformLibrary-jvm/1.0.0/KotlinMultiPlatformLibrary-jvm-1.0.0.module",
+        "group": "org.operation.group",
+        "module": "KotlinMultiPlatformLibrary-jvm",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../KotlinMultiPlatformLibrary-native/1.0.0/KotlinMultiPlatformLibrary-native-1.0.0.module",
+        "group": "org.operation.group",
+        "module": "KotlinMultiPlatformLibrary-native",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "nativeMetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../KotlinMultiPlatformLibrary-native/1.0.0/KotlinMultiPlatformLibrary-native-1.0.0.module",
+        "group": "org.operation.group",
+        "module": "KotlinMultiPlatformLibrary-native",
+        "version": "1.0.0"
+      }
+    }
+  ]
+}

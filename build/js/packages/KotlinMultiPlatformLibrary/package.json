@@ -1,0 +1,10 @@
+{
+  "name": "KotlinMultiPlatformLibrary",
+  "version": "1.0.0",
+  "main": "kotlin/KotlinMultiPlatformLibrary.js",
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}

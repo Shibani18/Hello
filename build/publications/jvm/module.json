@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../KotlinMultiPlatformLibrary/1.0.0/KotlinMultiPlatformLibrary-1.0.0.module",
+    "group": "org.operation.group",
+    "module": "KotlinMultiPlatformLibrary",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "KotlinMultiPlatformLibrary-jvm-1.0.0.jar",
+          "url": "KotlinMultiPlatformLibrary-jvm-1.0.0.jar",
+          "size": 3160,
+          "sha512": "0e4963085c7da571b48d1ae92bbc6dd4d1b6a130417336030558a2bc9e4c1b31706433f82a3848207545b78b407b5c3d12a1b92db01a78cc737ffd4d91c3ea1f",
+          "sha256": "63010ec90606730ac3693d19b14afb4262a229fc73bf9f5378d02d36fdb80eec",
+          "sha1": "ac11dc705cca9ebf64e36d22254755b33ac54073",
+          "md5": "359d79abbc113e3e242efb63ba14e7c4"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "KotlinMultiPlatformLibrary-jvm-1.0.0.jar",
+          "url": "KotlinMultiPlatformLibrary-jvm-1.0.0.jar",
+          "size": 3160,
+          "sha512": "0e4963085c7da571b48d1ae92bbc6dd4d1b6a130417336030558a2bc9e4c1b31706433f82a3848207545b78b407b5c3d12a1b92db01a78cc737ffd4d91c3ea1f",
+          "sha256": "63010ec90606730ac3693d19b14afb4262a229fc73bf9f5378d02d36fdb80eec",
+          "sha1": "ac11dc705cca9ebf64e36d22254755b33ac54073",
+          "md5": "359d79abbc113e3e242efb63ba14e7c4"
+        }
+      ]
+    }
+  ]
+}
