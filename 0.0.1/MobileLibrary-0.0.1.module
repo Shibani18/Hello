@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.webroot.report",
+    "module": "MobileLibrary",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MobileLibrary-metadata-0.0.1-all.jar",
+          "url": "MobileLibrary-0.0.1-all.jar",
+          "size": 3660,
+          "sha512": "2a7ad17a58e788ede99048ffb281bff8744d8ccff5b2fc83cf949d80d4176d0b0a2b9e590446400592687c9d5179eca08e82f88842d4f9527ad097d68fc258c8",
+          "sha256": "270f249baa3b3c5e886a94e9fc766586331b55cd094be89e16661389e8664694",
+          "sha1": "c15c1a8365e1e861845195e4816d1fc54edd3a1b",
+          "md5": "aae5492573253d4c8ebcfd8049357d91"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MobileLibrary-0.0.1.jar",
+          "url": "MobileLibrary-0.0.1.jar",
+          "size": 1672,
+          "sha512": "93eb955936cd13bb2a932e5a24de49e122120f80a53bcebe68e2d4c3d64a10c7b6539bb0b9ed4e6515d1e753efe4507d6eaf2b076a98e634b6d7bd292d7d1c96",
+          "sha256": "f4317a9b1b1ac48c61cfa5742cc7ce8f8808ec62a0bddfe42d6ab67d1a616994",
+          "sha1": "799f93d77ec72348b4f050e2eb6da222d0cc09d8",
+          "md5": "f55876f096734f8ed0279429fcc92375"
+        }
+      ]
+    },
+    {
+      "name": "iosApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../MobileLibrary-ios/0.0.1/MobileLibrary-ios-0.0.1.module",
+        "group": "org.webroot.report",
+        "module": "MobileLibrary-ios",
+        "version": "0.0.1"
+      }
+    },
+    {
+      "name": "iosMetadataElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../MobileLibrary-ios/0.0.1/MobileLibrary-ios-0.0.1.module",
+        "group": "org.webroot.report",
+        "module": "MobileLibrary-ios",
+        "version": "0.0.1"
+      }
+    }
+  ]
+}
